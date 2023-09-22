@@ -248,9 +248,10 @@ npm run build
     - react_js-11
 
 
+### 12 - React não precisa estar na página toda
 
-
-
+- Exemplo:
+    - react_js-12
 
 
 
