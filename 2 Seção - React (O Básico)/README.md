@@ -256,7 +256,10 @@ npm run build
 
 
 
+### 13 - Componentes funcionais e componentes de classe
 
+- Exemplo:
+    - react_js-13
 
 
 
