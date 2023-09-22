@@ -70,6 +70,8 @@ npm start
 
 
 **Terminal (administrador)**
+
+- Power Shell    
     - Get-ExecutionPolicy
     - Set-ExecutionPolicy AllSigned
         - yes
@@ -89,9 +91,157 @@ choco -v
 choco install python3 git nodejs vscode
 ```
 
+- Verifica a versão do python
+```
+python --version
+```
+
+- Verifica a versão do node
+```
+node --version
+```
+
+- Verifica a versão do npm
+```
+npm --version
+```
+
+**Visual Studio Code**
+
+- Extensões
+    - `Om Theme (A Darker Dracula Theme)`
+    - `OM Extension Pack`
+
+
 
 - Exemplo:
     - react_js-05
+
+
+
+### 6 - Ambiente de desenvolvimento no Ubuntu 20.04 
+
+- Node (LTS)
+    - Link: https://nodejs.org/en
+
+- Google Chrome
+    - Link: https://www.google.com/intl/pt-BR/chrome/
+
+- Git
+```
+sudo apt install git
+```
+
+- Theme - Clone this repo
+```
+git clone https://github.com/luizomf/yaru-theme-personalized-as-om-theme.git
+```
+
+
+- Exemplo:
+    - react_js-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
