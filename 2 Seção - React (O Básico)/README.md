@@ -210,10 +210,12 @@ npm start
     - react_js-07
 
 
+### 8 - Atualizações sobre o React 18
 
+- README.md
 
-
-
+- Exemplo:
+    - react_js-08
 
 
 
