@@ -226,7 +226,19 @@ npm start
 
 
 
+### 10 - npm run build - Exemplo
 
+- Webpack
+    - Link: https://webpack.js.org/
+
+
+- Build
+```
+npm run build
+```
+
+- Exemplo:
+    - react_js-10
 
 
 
