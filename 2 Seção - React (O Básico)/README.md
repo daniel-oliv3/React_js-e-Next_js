@@ -219,9 +219,10 @@ npm start
 
 
 
+### 9 - npx create-react-app - parte 2
 
-
-
+- Exemplo:
+    - react_js-09
 
 
 
