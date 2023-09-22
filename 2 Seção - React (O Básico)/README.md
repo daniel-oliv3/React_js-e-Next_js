@@ -183,9 +183,31 @@ sudo apt-get install gcc g++ make
 
 
 
+### 7 - npx create-react-app - parte 1
+
+**Crie Um Novo React App**
+
+- Documentação:
+    - Link: https://pt-br.legacy.reactjs.org/docs/create-a-new-react-app.html
+
+- Git:
+    - Link: https://git-scm.com/downloads
 
 
+**Comando que Cria o Projeto ReactJS**
 
+- Cria o projeto react
+```
+npx create-react-app react_js-07
+```
+
+- Roda o projeto react
+```
+npm start
+```
+
+- Exemplo:
+    - react_js-07
 
 
 
