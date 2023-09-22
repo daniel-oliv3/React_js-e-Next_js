@@ -10,25 +10,25 @@
 
 
 
-### Seção 1: Introdução
+**Seção 1: Introdução**
 
-### Seção 2: React (O Básico)
+**Seção 2: React (O Básico)**
 
-### Seção 3: Mock Service Worker e Testes para <*Home /> (Testes Avançados)
+**Seção 3: Mock Service Worker e Testes para <*Home /> (Testes Avançados)**
 
-### Seção 4: React Hooks (Teoria e hooks avançados)
+**Seção 4: React Hooks (Teoria e hooks avançados)**
 
-### Seção 5: Roteamento com React Router Dom v5 (Básico) 
+**Seção 5: Roteamento com React Router Dom v5 (Básico)**
 
-### Seção 6: React Router Dom v6
+**Seção 6: React Router Dom v6**
 
-### Seção 7: Projeto 1: Landing pages com Strapi e PostgreSQL (Back-end)
+**Seção 7: Projeto 1: Landing pages com Strapi e PostgreSQL (Back-end)**
 
-### Seção 3:
+**Seção 8:**
 
-### Seção 3:
+**Seção 9:**
 
-### Seção 3:
+**Seção 10:**
 
 
 
