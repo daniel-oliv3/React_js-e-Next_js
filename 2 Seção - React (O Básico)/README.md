@@ -262,8 +262,19 @@ npm run build
     - react_js-13
 
 
+### 14 - Componentes de classe com estado (stateful)
 
+**Links**
 
+- Public class fields
+    - Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields
+- Arrow functions
+    - Link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+- Atribuição via desestruturação (destructuring assignment)
+    - Link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+
+- Exemplo:
+    - react_js-14
 
 
 
