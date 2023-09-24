@@ -56,7 +56,7 @@
 
 **Seção 23: Comandos Linus/Unix mais usados - Aprenda a nevegar pelo terminal**
 
-**Seção 24: Comclusão e certificado**
+**Seção 24: Conclusão e certificado**
 
 
 
