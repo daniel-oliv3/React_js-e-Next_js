@@ -300,10 +300,22 @@ npm run build
 
 
 
+### 17 - Lifecycle methods (métodos de ciclo de vida) - Parte 1
 
 
+**Links**
+
+- React.Component:
+    - Link: https://pt-br.legacy.reactjs.org/docs/react-component.html
 
 
+**State and Lifecycle**
+
+- Estado e Ciclo de Vida
+    - Link: https://legacy.reactjs.org/docs/state-and-lifecycle.html
+
+- Exemplo:
+    - react_js-17
 
 
 
