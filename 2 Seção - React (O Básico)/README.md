@@ -286,8 +286,17 @@ npm run build
     - react_js-15
 
 
+### 16 - State com arrays e objetos
 
+**Array.prototype.map()**
 
+- Documentação:
+    - Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+
+- Key Prop
+
+- Exemplo:
+    - react_js-16
 
 
 
