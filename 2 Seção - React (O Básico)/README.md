@@ -318,8 +318,15 @@ npm run build
     - react_js-17
 
 
+### 18 - Lifecycle methods (métodos de ciclo de vida) - Parte 2
 
+**Mostrar ciclos de vida menos comuns**
 
+- Diagrama:
+    - Link: https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+
+- Exemplo:
+    - react_js-18
 
 
 
