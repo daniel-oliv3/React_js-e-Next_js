@@ -329,9 +329,18 @@ npm run build
     - react_js-18
 
 
+### 19 - Buscando dados externos com fetch (Data fetching)
 
+- {JSON} Placeholder
+    - Link: https://jsonplaceholder.typicode.com/
+    - Posts: https://jsonplaceholder.typicode.com/posts
+    - Photos: https://jsonplaceholder.typicode.com/photos
 
+- Fetch API
+    Link: https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API
 
+- Exemplo:
+    - react_js-19
 
 
 
