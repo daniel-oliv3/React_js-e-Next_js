@@ -337,7 +337,7 @@ npm run build
     - Photos: https://jsonplaceholder.typicode.com/photos
 
 - Fetch API
-    Link: https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API
+    - Link: https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API
 
 - Exemplo:
     - react_js-19
@@ -347,9 +347,10 @@ npm run build
 
 
 
+### 20 - Props e organização dos componentes - Parte 1
 
-
-
+- Exemplo:
+    - react_js-20
 
 
 
