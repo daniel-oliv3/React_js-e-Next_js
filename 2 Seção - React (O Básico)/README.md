@@ -354,7 +354,10 @@ npm run build
 
 
 
+### 21 - Props e organização dos componentes - Parte 2
 
+- Exemplo:
+    - react_js-21
 
 
 
