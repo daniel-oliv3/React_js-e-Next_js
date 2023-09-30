@@ -1,0 +1,36 @@
+
+.button-container {
+    min-height: 60px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.button {
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+    color: darkblue;
+}
+
+.button:disabled {
+    background-color: #888;
+    color: white;
+    cursor: not-allowed;
+}
+
+
+
+
+
+
+
+
+

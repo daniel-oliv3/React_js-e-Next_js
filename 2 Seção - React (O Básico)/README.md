@@ -360,9 +360,16 @@ npm run build
     - react_js-21
 
 
+### 22 - Props e organização dos componentes - Parte 3
 
 
+- **Array.prototype.slice()**
+    - Link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+- **Page not found**
+    - Link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_operator    
 
+- Exemplo:
+    - react_js-22
 
 
 
