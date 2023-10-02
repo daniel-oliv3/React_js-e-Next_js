@@ -373,7 +373,20 @@ npm run build
 
 
 
+### 23 - Trabalhando com inputs de texto
 
+**Expressões e operadores**
+
+- DeveloperMozilla:
+    - Link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators
+
+**Operador Condicional Ternário**
+
+- DeveloperMozilla:
+    - Link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Conditional_operator
+
+- Exemplo:
+    - react_js-23
 
 
 
