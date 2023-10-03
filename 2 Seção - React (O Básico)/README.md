@@ -436,6 +436,13 @@ npm run build
 
 ### 27 - Configurando o GIT e SSH Keys no Windows
 
+- ntp
+
+**GitHub**
+
+- GitHub
+    - Link: https://github.com/
+    
 
 **Conectar-se ao GitHub com o SSH**
 
@@ -531,39 +538,58 @@ git commit -m 'MENSAGEM'
 git push origin master
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
 - Exemplo:
     - react_js-27
 
 
 
+### 28 - Configurando o GIT e SSH Keys no Ubuntu
+
+- ntp
+
+**Conectar-se ao GitHub com o SSH**
+
+- Link: https://docs.github.com/pt/authentication/connecting-to-github-with-ssh
+
+
+**Adicionar uma nova chave SSH à sua conta do GitHub**
+
+- Link: https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+
+
+**Git**
+
+- Instalar o git no computador
+```
+sudo apt install git
+```
+
+**Comandos GitHub**
+
+```txt
+sudo apt install git
+
+# Configuração inicial do git
+git init
+git config --global user.name "Seu nome"
+git config --global user.email "seuemail@email.com"
+git remote add origin git@github.com:URL-COPIADA-DO-GIT
+
+# Editei o projeto
+git add .
+git commit -m "A mensagem"
+git push origin master
+
+# CHAVES SSH
+ssh-keygen -t rsa -C "meucontatodeemail@gmail.com"
+cat ~/.ssh/id_rsa.pub
+```
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+- Exemplo:
+    - react_js-28
 
 
 
