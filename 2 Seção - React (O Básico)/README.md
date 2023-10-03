@@ -434,21 +434,48 @@ npm run build
 
 
 
+### 27 - Configurando o GIT e SSH Keys no Windows
 
 
+**Conectar-se ao GitHub com o SSH**
+
+- Link: https://docs.github.com/pt/authentication/connecting-to-github-with-ssh
 
 
+**Gerando uma nova chave SSH e adicionando-a ao agente SSH**
+
+- Link: https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 
+**Adicionar uma nova chave SSH à sua conta do GitHub**
+
+- Link: https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
 
+**Comandos**
 
+```txt
+# Criar chaves ssh
+ssh-keygen -t rsa -f "/c/Users/seu-usuario/.ssh/nome-chave" -C 'seu-email@email.com'
 
+# Quando fechar o terminal preciso executar isso
+eval "$(ssh-agent -s)"
+ssh-add /c/Users/seu-usuario/.ssh/nome-chave
 
+# Iniciando o git
+git init
+git config --global user.name "SEU NOME"
+git config --global user.email "seu-email@email.com"
+git remote add origin git@github.com:CAMINHO-COPIADO-DO-GITHUB-SSH
 
+# Editei
+git add .
+git commit -m 'MENSAGEM'
+git push origin master
+```
 
-
-
+- Exemplo:
+    - react_js-27
 
 
 
