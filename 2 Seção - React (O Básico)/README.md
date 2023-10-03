@@ -393,14 +393,19 @@ npm run build
 
 ### 24 - Fluxo de dados, componentes e state vs props
 
-- np
+**Os Dados Fluem para Baixo**
+
+- Documentação:
+    - Link: https://pt-br.legacy.reactjs.org/docs/state-and-lifecycle.html#the-data-flows-down
 
 - Exemplo:
     - react_js-24
 
 
+### 25 - Decidir onde o estado vive é importante (React Developer Tools)
 
-
+- Extensão Chrome:
+    - `React Developer Tools`
 
 
 
