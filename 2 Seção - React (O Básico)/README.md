@@ -452,7 +452,64 @@ npm run build
 - Link: https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
 
-**Comandos**
+
+**Downloads**
+
+- **Git Bash**
+    - Link: https://git-scm.com/downloads
+
+- Use the Nano editor by default
+
+
+**Terminal Git Bash**
+
+- Acessar a pasta do projeto
+```
+cd pasta_projeto
+```
+
+- Cria o arquivo.txt
+```
+touch arquivo.txt
+```
+
+- Acessa o arquivo.txt
+```
+nano arquivo.txt
+```
+
+- Gerar uma chave SSH
+```
+ssh-keygen -t rsa -f '~/.ssh/github'
+```
+
+- criar a pasta `.ssh`
+- Gerar uma chave SSH (Caso de erro do comando anterior)
+```
+ssh-keygen -t rsa -C "seuemail.gmail.com"
+```
+
+- diretorio: (/c/Users/foreb/.ssh/id_rsa)
+
+- Comando (anterior(criar a pasta no diretorio))
+```
+ssh-keygen -t rsa -f "/c/Users/foreb/.ssh/github"
+```
+
+- ...
+
+```
+eval "$(ssh-agent -s)"
+```
+
+- add indentity (Chave)
+
+```
+ssh-add /c/Users/foreb/.ssh/github
+```
+
+
+**GitHub Comandos**
 
 ```txt
 # Criar chaves ssh
@@ -473,6 +530,18 @@ git add .
 git commit -m 'MENSAGEM'
 git push origin master
 ```
+
+
+
+
+
+
+
+
+
+
+
+
 
 - Exemplo:
     - react_js-27
