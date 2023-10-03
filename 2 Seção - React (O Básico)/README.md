@@ -391,9 +391,12 @@ npm run build
 
 
 
+### 24 - Fluxo de dados, componentes e state vs props
 
+- np
 
-
+- Exemplo:
+    - react_js-24
 
 
 
