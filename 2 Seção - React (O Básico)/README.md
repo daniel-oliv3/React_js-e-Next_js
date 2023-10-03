@@ -404,8 +404,79 @@ npm run build
 
 ### 25 - Decidir onde o estado vive é importante (React Developer Tools)
 
+- ntp
+
 - Extensão Chrome:
     - `React Developer Tools`
+
+
+- Exemplo:
+    - react_js-25
+
+
+### 26 - Eventos Sintéticos do React (SyntheticEvent)
+
+- ntp
+
+**Manipulando eventos**
+
+- Documentação:
+    - Link: https://pt-br.legacy.reactjs.org/docs/handling-events.html
+
+
+**SyntheticEvent**
+
+- Documentação: 
+    - Link: https://pt-br.legacy.reactjs.org/docs/events.html
+
+- Exemplo:
+    - react_js-26
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
