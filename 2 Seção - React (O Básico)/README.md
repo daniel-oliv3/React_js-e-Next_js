@@ -609,11 +609,103 @@ cat ~/.ssh/id_rsa.pub
     - react_js-29
 
 
-### 30 Aviso sobre React Hooks
+### 30 - Aviso sobre React Hooks
 
 - ntp
 
 - Exemplo:
     - react_js-30
+
+
+
+### 31 - Migrando para React Hooks
+
+**Introdução aos Hooks**
+
+- Link: https://pt-br.legacy.reactjs.org/docs/hooks-intro.html
+
+**API de Referência dos Hooks**
+
+- Link: https://pt-br.legacy.reactjs.org/docs/hooks-reference.html
+
+- Exemplo:
+    - react_js-31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
