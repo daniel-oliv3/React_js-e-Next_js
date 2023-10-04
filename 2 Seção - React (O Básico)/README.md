@@ -587,14 +587,26 @@ cat ~/.ssh/id_rsa.pub
 
 
 
-
 - Exemplo:
     - react_js-28
 
 
+### 29 - Deploy do nosso projeto na Netlify
+
+- ntp
+
+- Netlify
+    - Link: https://www.netlify.com/
 
 
+**Projeto no Netlify**
 
+- Projeto
+    - Link: https://reactjs-pagination-search-cards.netlify.app/
+
+
+- Exemplo:
+    - react_js-29
 
 
 
