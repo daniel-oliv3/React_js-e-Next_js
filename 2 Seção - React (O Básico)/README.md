@@ -633,10 +633,11 @@ cat ~/.ssh/id_rsa.pub
 
 
 
+### 32 - Mais sobre this.setState em classes
 
 
-
-
+- Exemplo:
+    - react_js-32
 
 
 
