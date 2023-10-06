@@ -662,10 +662,33 @@ cat ~/.ssh/id_rsa.pub
 
 
 
+### 34 - Introdução à testes com o Jest e Testing Library - Parte 2
 
 
+- Comando que abre o terminal pelo vscode
+    - `CRTL + SHIFY + C`
 
 
+- Comando que executa os testes
+```
+npm test
+```
+
+- spec = test/test = spec
+- Home.test.jsx
+- Home.spect.jsx
+
+
+- Coverage
+
+```
+npm test -- --coverage
+```
+
+- `C:\Users\react_js-34\coverage\lcov-report`
+
+- Exemplo:
+    - react_js-34
 
 
 
