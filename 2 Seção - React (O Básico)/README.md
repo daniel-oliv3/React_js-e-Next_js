@@ -641,10 +641,11 @@ cat ~/.ssh/id_rsa.pub
 
 
 
+### 33 - Introdução à testes com o Jest e Testing Library - Parte 1
 
 
-
-
+- Exemplo:
+    - react_js-33
 
 
 
