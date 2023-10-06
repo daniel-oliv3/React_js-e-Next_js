@@ -12,18 +12,15 @@ export const Home = () => {
   const [allPosts, setAllPosts] = useState([]);
   const [page, setPage] = useState(0);
   const [postsPerPage] = useState(4);
-  const [searchValue, setSearchValue] = useState('');
-  
-  const noMorePosts = page + postsPerPage >= allPosts.length;
-  
-  const filteredPost = !!searchValue
-  ? posts.filter((post) => {
-    return post.title.toLowerCase().includes(searchValue.toLowerCase());
-  })
-  : posts;
+  const [searchValue, setSearchValue] = useState("");
 
-  
-  
+  const noMorePosts = page + postsPerPage >= allPosts.length;
+
+  const filteredPost = !!searchValue
+    ? posts.filter((post) => {
+        return post.title.toLowerCase().includes(searchValue.toLowerCase());
+      })
+    : posts;
 
   const handlerLoadPosts = useCallback(async (page, postsPerPage) => {
     const postAndPhotos = await loadPosts();
@@ -33,16 +30,15 @@ export const Home = () => {
   }, []);
 
   useEffect(() => {
-    // console.log("Oi");
-    console.log(new Date().toLocaleString('pt-br') );
+    console.log(new Date().toLocaleString("pt-br"));
     handlerLoadPosts(0, postsPerPage);
   }, [handlerLoadPosts, postsPerPage]);
 
-  const loadMorePosts = () => {    
+  const loadMorePosts = () => {
     const nextPage = page + postsPerPage;
     const nextPosts = allPosts.slice(nextPage, nextPage + postsPerPage);
     posts.push(...nextPosts);
-    
+
     setPosts(posts);
     setPage(nextPage);
   };
@@ -76,84 +72,3 @@ export const Home = () => {
     </section>
   );
 };
-
-// -----------------------------------------------------------------------
-
-// //Componentes de classe
-// export class Home2 extends Component {
-//   state = {
-//     posts: [],
-//     allPosts: [],
-//     page: 0,
-//     postsPerPage: 4,
-//     searchValue: "",
-//   };
-
-//   async componentDidMount() {
-//     await this.loadPosts();
-//   }
-
-//   loadPosts = async () => {
-//     const { page, postsPerPage } = this.state;
-
-//     const postAndPhotos = await loadPosts();
-//     this.setState({
-//       posts: postAndPhotos.slice(page, postsPerPage),
-//       allPosts: postAndPhotos,
-//     });
-//   };
-
-//   loadMorePosts = () => {
-//     const { page, postsPerPage, allPosts, posts } = this.state;
-//     const nextPage = page + postsPerPage;
-//     const nextPosts = allPosts.slice(nextPage, nextPage + postsPerPage);
-
-//     posts.push(...nextPosts);
-//     this.setState({ posts, page: nextPage });
-//   };
-
-//   /* ------- Funções ------- */
-//   handlerChange = (e) => {
-//     const { value } = e.target;
-//     this.setState({ searchValue: value });
-//   };
-
-//   render() {
-//     const { posts, page, postsPerPage, allPosts, searchValue } = this.state;
-//     const noMorePosts = page + postsPerPage >= allPosts.length;
-
-//     const filteredPost = !!searchValue
-//       ? posts.filter((post) => {
-//           return post.title.toLowerCase().includes(searchValue.toLowerCase());
-//         })
-//       : posts;
-
-//     return (
-//       <section className="container">
-//         <div className="search-container">
-//           {!!searchValue && <h1>Search Value: {searchValue} </h1>}
-//           <TextInput
-//             searchValue={searchValue}
-//             handlerChange={this.handlerChange}
-//           />
-//         </div>
-
-//         {filteredPost.length > 0 && <Posts posts={filteredPost} />}
-
-//         {filteredPost.length === 0 && <p>Não existem posts =( </p>}
-
-//         <div className="button-container">
-//           {!searchValue && (
-//             <Button
-//               text="Load More Posts"
-//               onClick={this.loadMorePosts}
-//               disabled={noMorePosts}
-//             />
-//           )}
-//         </div>
-//       </section>
-//     );
-//   }
-// }
-
-// export default Home;

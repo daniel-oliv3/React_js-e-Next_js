@@ -643,6 +643,18 @@ cat ~/.ssh/id_rsa.pub
 
 ### 33 - Introdução à testes com o Jest e Testing Library - Parte 1
 
+- Teste Unitário
+- Mock functions
+
+**Jest cheat sheet**
+
+- Link: https://github.com/sapegin/jest-cheat-sheet
+
+**Testing-library/jest-dom**
+
+- Link: https://github.com/testing-library/jest-dom
+
+- it = teste/teste = it
 
 - Exemplo:
     - react_js-33
