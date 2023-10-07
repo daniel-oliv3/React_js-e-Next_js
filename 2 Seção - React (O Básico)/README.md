@@ -692,9 +692,21 @@ npm test -- --coverage
 
 
 
+### 35 - Introdução à testes com o Jest e Testing Library - Parte 3
+
+- Comando que abre o terminal pelo vscode
+    - `CRTL + SHIFY + C`
 
 
+- Comando que executa os testes
+```
+npm test
+```
 
+- SnapShoot
+
+- Exemplo:
+    - react_js-35
 
 
 
