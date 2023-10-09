@@ -685,7 +685,7 @@ npm test
 npm test -- --coverage
 ```
 
-- `C:\Users\react_js-34\coverage\lcov-report`
+- `C:\Users\react_js-34\coverage\lcov-report\index.html`
 
 - Exemplo:
     - react_js-34
@@ -703,6 +703,8 @@ npm test -- --coverage
 npm test
 ```
 
+- `C:\Users\react_js-34\coverage\lcov-report\index.html`
+
 - SnapShoot
 
 - Exemplo:
@@ -715,6 +717,23 @@ npm test
 
 ### 36 - Introdução à testes com o Jest e Testing Library - Parte 3
 
+**userEvent**
+
+- Link: https://github.com/testing-library/user-event
+
+- `C:\Users\react_js-34\coverage\lcov-report\index.html`
+
+- Final dos testes (Coverage)
+
+```
+npm test -- --coverage
+```
+
+- instabull
+
+```
+npm test -- --watchAll="false" --coverage
+```
 
 - Exemplo:
     - react_js-36
