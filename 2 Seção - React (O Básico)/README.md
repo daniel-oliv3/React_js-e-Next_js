@@ -703,7 +703,7 @@ npm test -- --coverage
 npm test
 ```
 
-- `C:\Users\react_js-34\coverage\lcov-report\index.html`
+- `C:\Users\react_js-35\coverage\lcov-report\index.html`
 
 - SnapShoot
 
@@ -721,7 +721,7 @@ npm test
 
 - Link: https://github.com/testing-library/user-event
 
-- `C:\Users\react_js-34\coverage\lcov-report\index.html`
+- `C:\Users\react_js-36\coverage\lcov-report\index.html`
 
 - Final dos testes (Coverage)
 
@@ -740,6 +740,10 @@ npm test -- --watchAll="false" --coverage
 
 
 
+### 37 - Eslint, prettier, editorconfig e prop-types
+
+- Exemplo:
+    - react_js-37
 
 
 
