@@ -713,10 +713,11 @@ npm test
 
 
 
+### 36 - Introdução à testes com o Jest e Testing Library - Parte 3
 
 
-
-
+- Exemplo:
+    - react_js-36
 
 
 
