@@ -802,8 +802,15 @@ npm i prop-types
 
 - Erros a solucionar
 
+<p align="center">
+  <img alt="...." src="../2 Seção - React (O Básico)/assets/imagem01.jpg" width="70%">
+</p>
 
+- Coverage
 
+```
+npm test -- --watchAll="false" --coverage
+```
 
 
 - Exemplo:
@@ -811,8 +818,11 @@ npm i prop-types
 
 
 
+### 38 - ERRATA: defaultProps e destructuring
 
 
+- Exemplo:
+    - react_js-38
 
 
 
