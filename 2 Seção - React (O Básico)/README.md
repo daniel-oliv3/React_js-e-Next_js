@@ -715,7 +715,7 @@ npm test
 
 
 
-### 36 - Introdução à testes com o Jest e Testing Library - Parte 3
+### 36 - Introdução à testes com o Jest e Testing Library - Parte 4
 
 **userEvent**
 
@@ -741,6 +741,70 @@ npm test -- --watchAll="false" --coverage
 
 
 ### 37 - Eslint, prettier, editorconfig e prop-types
+
+- Extenção VSCode
+    - `EditorConfig for VS Code`
+    - `ESLint`
+    - `Prettier - Code formatter`
+
+
+- ESLint 
+```
+npx eslint --init
+```
+
+- To check syntax and find problems
+- JavasScript modules (import/export)
+- React
+- no TypeScript
+
+- node
+- browser
+
+- JavaScript
+- eslint-plugin-react@latest yes
+- npm yes
+
+- Apagar trecho de codigo do arquivo `package.json`
+
+- DevDependence
+```txt
+"eslint": "^8.51.0",
+```
+
+- apagar `package.lock.json`
+- apagar `node_modules`
+
+- usar comando (instala o node_modules)
+```
+npm init
+
+ou
+
+npm i
+```
+
+- Prettier
+```
+npm i -D prettier eslint-config-prettier eslint-plugin-prettier
+```
+
+- eslint
+```
+npx eslint src/**/*.jsx --fix
+```
+
+- prop-types
+```
+npm i prop-types
+```
+
+
+- Erros a solucionar
+
+
+
+
 
 - Exemplo:
     - react_js-37

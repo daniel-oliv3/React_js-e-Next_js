@@ -1,4 +1,5 @@
-import "./styles.css";
+import P from 'prop-types';
+import './styles.css';
 
 export const TextInput = ({ searchValue, handlerChange }) => {
   return (
@@ -12,4 +13,10 @@ export const TextInput = ({ searchValue, handlerChange }) => {
       />
     </>
   );
+};
+
+
+TextInput.propTypes = {
+  searchValue: P.string,
+  handlerChange: P.func,
 };
