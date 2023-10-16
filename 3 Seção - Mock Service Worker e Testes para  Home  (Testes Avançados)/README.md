@@ -46,9 +46,10 @@ npm test
 
 
 
+### 40 - Testando os componentes renderizados pelo template < Home />
 
-
-
+- Exemplo:
+  - react_js-40
 
 
 
