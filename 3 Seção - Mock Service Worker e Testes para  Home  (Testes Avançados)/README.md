@@ -10,6 +10,39 @@
 
 
 
+### 39 - Configurando Mock Service Worker para iniciar os testes
+
+**Mock Service Worker**
+
+- Link: https://mswjs.io/docs/getting-started/install
+
+- Install msw
+```
+npm install msw --save-dev
+```
+
+**Comandos de test**
+
+
+- No VSCode com o projeto aberto
+
+- `CTRL + SHIFT + C`
+
+- Inicia o teste
+
+```
+npm test
+```
+
+- Executando teste (pattern)
+
+- p
+
+
+- Exemplo:
+  - react_js-39
+
+
 
 
 

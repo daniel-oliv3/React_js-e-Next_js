@@ -5,12 +5,7 @@ import { TextInput } from '.';
 // deve ter um valor de searchValue
 describe('<TextInput />', () => {
   it('should have a value of searchValue', () => {
-    // const fn = jest.fn();
-    // render(<TextInput handleChange={fn} searchValue={'testando'} />);
 
-    // const input = screen.getByPlaceholderText(/type your search/i);
-
-    // expect(input.value).toBe('testando');
   });
 
   // deve chamar a função handleChange em cada tecla pressionada
@@ -35,5 +30,6 @@ describe('<TextInput />', () => {
     expect(container).toMatchSnapshot();
   });
 });
+
 
 

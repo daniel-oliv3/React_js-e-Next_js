@@ -14,13 +14,6 @@ export const Home = () => {
   const [postsPerPage] = useState(4);
   const [searchValue, setSearchValue] = useState('');
 
-  const noMorePosts = page + postsPerPage >= allPosts.length;
-  const filteredPost = searchValue
-    ? posts.filter((post) => {
-        return post.title.toLowerCase().includes(searchValue.toLowerCase());
-      })
-    : posts;
-
   const handlerLoadPosts = useCallback(async (page, postsPerPage) => {
     const postAndPhotos = await loadPosts();
 
@@ -29,7 +22,7 @@ export const Home = () => {
   }, []);
 
   useEffect(() => {
-    console.log(new Date().toLocaleString('pt-br'));
+    // console.log(new Date().toLocaleString('pt-br'));
     handlerLoadPosts(0, postsPerPage);
   }, [handlerLoadPosts, postsPerPage]);
 
@@ -47,12 +40,12 @@ export const Home = () => {
     setSearchValue(value);
   };
 
-  // const noMorePosts = page + postsPerPage >= allPosts.length;
-  // const filteredPosts = searchValue
-  // ? allPosts.filter((post) => {
-  //     return post.title.toLowerCase().includes(searchValue.toLowerCase());
-  //   })
-  // : posts;
+  const noMorePosts = page + postsPerPage >= allPosts.length;
+  const filteredPost = searchValue
+    ? posts.filter((post) => {
+        return post.title.toLowerCase().includes(searchValue.toLowerCase());
+      })
+    : posts;
 
   return (
     <section className="container">
