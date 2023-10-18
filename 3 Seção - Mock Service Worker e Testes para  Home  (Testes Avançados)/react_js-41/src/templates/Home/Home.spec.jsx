@@ -2,13 +2,12 @@ import { rest } from 'msw';
 import { setupServer } from 'msw/node';
 import { render, screen, waitForElementToBeRemoved } from "@testing-library/react";
 import { Home } from '.';
+import userEvent from '@testing-library/user-event';
 
 
 const handlers = [
   rest.get('*jsonplaceholder.typicode.com*', async
   (req, res, ctx) => {
-
-    // console.log('A CHAMADA FOI INTERCEPTADA!');
 
     return res(
       ctx.json([
@@ -75,5 +74,36 @@ describe('<Home/> ', () => {
 
 
 
+  });
+
+
+  it('should search for posts', async () => {
+    render(<Home />);
+
+    const noMorePosts = screen.getByText('Não existem posts =(');
+
+    // expect.assertions(3);
+
+    await waitForElementToBeRemoved(noMorePosts);
+
+    const search = screen.getByPlaceholderText(/type your search/i);
+
+    expect(screen.getByRole('heading', { name: 'title 1 1'})).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'title 2 2'})).toBeInTheDocument();
+    expect(screen.queryByRole('heading', { name: 'title 2 3'})).not.toBeInTheDocument();
+
+
+    userEvent.type(search, 'title 1');
+    expect(screen.getByRole('heading', { name: 'title1 1' })).toBeInTheDocument();
+    expect(screen.queryByRole('heading', { name: 'title 2 2' })).not.toBeInTheDocument();
+    expect(screen.queryByRole('heading', { name: 'title 3 3' })).not.toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Search value: title1' })).toBeInTheDocument();
+
+    userEvent.clear(search);
+    expect(screen.getByRole('heading', { name: 'title 1 1' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'title 2 2' })).toBeInTheDocument();
+
+    userEvent.type(search, 'post does not exist');
+    expect(screen.getByText('Não existem posts =(')).toBeInTheDocument();
   });
 });
