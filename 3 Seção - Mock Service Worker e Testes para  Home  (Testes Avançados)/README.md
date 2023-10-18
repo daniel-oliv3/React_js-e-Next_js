@@ -3,6 +3,7 @@
 ##
 
 
+
 <p align="center">
   <img alt="...." src="../1 Seção - Introdução/pngwing.com.png" width="60%">
 </p>
@@ -44,8 +45,6 @@ npm test
 
 
 
-
-
 ### 40 - Testando os componentes renderizados pelo template < Home />
 
 - Exemplo:
@@ -62,16 +61,6 @@ npm test
 
 - Exemplo:
   - react_js-42
-
-
-
-
-
-
-
-
-
-
 
 
 
