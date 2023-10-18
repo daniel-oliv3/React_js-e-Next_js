@@ -58,7 +58,10 @@ npm test
   - react_js-41
 
 
+### 42 - Testando o botão "Load more posts"
 
+- Exemplo:
+  - react_js-42
 
 
 
