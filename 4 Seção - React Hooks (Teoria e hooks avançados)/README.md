@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img alt="...." src="./assets/reactjs_logo_icon_170805.png" width="60%">
+  <img alt="...." src="./assets/reactjs_logo_icon_170805.png" width="100%">
 </p>
 
 
