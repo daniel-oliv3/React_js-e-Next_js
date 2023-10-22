@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img alt="...." src="../1 Seção - Introdução/pngwing.com.png" width="60%">
+  <img alt="...." src="./assets/reactjs_logo_icon_170805.png" width="60%">
 </p>
 
 
@@ -19,7 +19,7 @@
 
 ### 44 - Configuração do projeto (eslint, prettier, editorconfig e prop-types)
 
-- Projeto **Configuração de um projeto INICIAL**
+- Hello World: **Configuração de um projeto INICIAL**
   - .editorconfig
   - .eslintrc.js
   - .prettierrc.js
