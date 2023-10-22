@@ -228,10 +228,15 @@ module.exports = {
 - Caso queira ver um projeto ativo com React 18, React Router Dom v6, ESLint e Prettier, veja: https://github.com/luizomf/base-react-18-router-dom-v6-eslint-prettier
 
 
+- Exemplo:
+  - react_js-45
 
 
+### 46 - useState - React Hook (Parte 1)
 
 
+- Exemplo:
+  - react_js-46
 
 
 
