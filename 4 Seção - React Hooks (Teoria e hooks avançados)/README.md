@@ -131,7 +131,101 @@ npm start
 
 
 
+### 45 - Update 04/2022 - novas configurações do ESLint e Prettier (React 18)
 
+**UPDATE**
+
+Update 04/2022 - novas configurações do ESLint e Prettier (React 18)
+Como parte do meu compromisso com você, estou revisando este curso para atualizar quaisquer partes que possam ser relevantes na nova versão do React (React 18).
+
+Ao seguir essa seção, percebi que algumas configurações do Prettier e do ESLint estão um pouco diferentes do que costumo usar atualmente (30/04/2022).
+
+- Instale o Prettier:
+```
+npm i -D prettier eslint-plugin-prettier eslint-config-prettier
+```
+- Segue como está a base do meu `.eslintrc.js`:
+
+```
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+    jest: true,
+    node: true,
+  },
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
+    'plugin:prettier/recommended',
+  ],
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly',
+  },
+  parser: '@babel/eslint-parser',
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
+  plugins: ['react', 'prettier', 'react-hooks'],
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
+  rules: {
+    'react/react-in-jsx-scope': 'off',
+  },
+};
+```
+
+- Podem existir atualizações ou muitas outras modificações. Porém essa é a base inicial do arquivo.
+
+- Segue como está o meu arquivo `.prettierrc.js`:
+
+```
+module.exports = {
+  arrowParens: 'always',
+  bracketSpacing: true,
+  endOfLine: 'lf',
+  htmlWhitespaceSensitivity: 'ignore',
+  insertPragma: false,
+  jsxSingleQuote: false,
+  printWidth: 80,
+  proseWrap: 'always',
+  quoteProps: 'as-needed',
+  requirePragma: false,
+  semi: true,
+  singleQuote: true,
+  tabWidth: 2,
+  trailingComma: 'all',
+  useTabs: false,
+  vueIndentScriptAndStyle: false,
+  embeddedLanguageFormatting: 'off',
+};
+```
+
+- Importante: se você usar a extensão do VS Code para o "Prettier", aponte o caminho do ".prettierrc.js" do projeto nas configurações da extensão. Pra isso, basta adicionar isso no settings.json do VS Code:
+```
+{
+  "prettier.configPath": "./.prettierrc.js"
+}
+```
+- Crie um arquivo chamado de .babelrc.json na raiz do projeto com os seguintes dados:
+
+```
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"]
+}
+```
+
+
+- Caso queira ver um projeto ativo com React 18, React Router Dom v6, ESLint e Prettier, veja: https://github.com/luizomf/base-react-18-router-dom-v6-eslint-prettier
 
 
 
