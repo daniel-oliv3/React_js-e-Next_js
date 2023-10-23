@@ -1,4 +1,3 @@
-// --------------------------------- Exemplo 2 ------------------------------
 import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
@@ -9,12 +8,14 @@ function App() {
   const [count, setCount] = useState(0);
   const reverseClass = reverse ? 'reverse' : '';
 
+  // ----------------------------
   const handleClick = () => {
-    setReverse(!reverse);
+    setReverse((reverse) => !reverse);
   };
 
+  // ----------------------------
   const handleIncrement = () => {
-    setCount(count + 1);
+    setCount((prevCount) => prevCount + 1);
   };
 
   return (
@@ -42,54 +43,3 @@ function App() {
 
 export default App;
 
-// --------------------------------- Exemplo 1 ------------------------------
-// import { Component } from 'react';
-// import logo from './logo.svg';
-// import './App.css';
-
-// /*------- Component de classe -------*/
-// class App extends Component {
-//   // constructor(props) {
-//   //   super(props);
-
-//   //   this.handleClick = this.handleClick.bind(this);
-
-//   //   this.state = {
-//   //     reverse: false,
-//   //     // reverse: true,
-//   //   };
-//   // }
-
-//   state = {
-//     reverse: false,
-//   };
-
-//   // handleClick() {
-//   //   const { reverse } = this.state;
-//   //   this.setState({ reverse: !reverse });
-//   // }
-
-//   handleClick = () => {
-//     const { reverse } = this.state;
-//     this.setState({ reverse: !reverse });
-//   };
-
-//   render() {
-//     const { reverse } = this.state;
-//     const reverseClass = reverse ? 'reverse' : '';
-
-//     return (
-//       <div className="App">
-//         <header className="App-header">
-//           <img src={logo} className={`App-logo ${reverseClass}`} alt="logo" />
-
-//           <button type="button" onClick={this.handleClick}>
-//             Reverse {reverseClass}
-//           </button>
-//         </header>
-//       </div>
-//     );
-//   }
-// }
-
-// export default App;
