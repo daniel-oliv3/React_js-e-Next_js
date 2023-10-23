@@ -31,5 +31,6 @@ module.exports = {
   },
   rules: {
     'react/react-in-jsx-scope': 'off',
+    'tno-unused-vars': 'off',
   },
 };
