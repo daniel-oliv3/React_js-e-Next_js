@@ -658,3 +658,26 @@ module.exports = {
   - react_js-47
 
 
+### 48 - useEffect - React Hook
+
+**Optional Chaining no JavaScript**
+
+- Link: https://medium.com/@guigaoliveira_/entendendo-o-optional-chaining-no-javascript-964ca6928598
+
+- Exemplo:
+  - react_js-48
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
