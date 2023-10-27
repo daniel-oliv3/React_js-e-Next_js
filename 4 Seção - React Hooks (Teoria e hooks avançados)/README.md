@@ -668,6 +668,14 @@ module.exports = {
   - react_js-48
 
 
+### 49 - Regras dos Hooks
+
+**Regras dos Hooks**
+
+- Link: https://pt-br.legacy.reactjs.org/docs/hooks-rules.html
+
+- Exemplo:
+  - react_js-49
 
 
 
@@ -677,7 +685,3 @@ module.exports = {
 
 
 
-
-
-
-  
