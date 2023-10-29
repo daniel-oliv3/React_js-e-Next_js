@@ -690,6 +690,11 @@ module.exports = {
 
 ### 51 - useMemo - React Hook
 
+**{JSON} Placeholder**
+
+- Link: https://jsonplaceholder.typicode.com/
+  - 100 Posts: https://jsonplaceholder.typicode.com/posts 
+
 - Exemplo:
   - react_js-51
 
