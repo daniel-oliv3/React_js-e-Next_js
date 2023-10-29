@@ -688,7 +688,8 @@ module.exports = {
   - react_js-50
 
 
+### 51 - useMemo - React Hook
 
-
-
+- Exemplo:
+  - react_js-51
 
