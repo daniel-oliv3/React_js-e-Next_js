@@ -678,7 +678,14 @@ module.exports = {
   - react_js-49
 
 
+### 50 - useCallback - React Hook
 
+**useCallback**
+
+- Link: https://pt-br.legacy.reactjs.org/docs/hooks-reference.html#usecallback
+
+- Exemplo:
+  - react_js-50
 
 
 
