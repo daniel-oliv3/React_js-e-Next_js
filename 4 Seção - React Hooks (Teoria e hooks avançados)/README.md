@@ -698,3 +698,13 @@ module.exports = {
 - Exemplo:
   - react_js-51
 
+
+
+### 52 - useRef - React Hook
+
+- Link: https://pt-br.legacy.reactjs.org/docs/hooks-reference.html#useref
+
+- Exemplo:
+  - react_js-52
+
+
