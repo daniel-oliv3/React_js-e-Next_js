@@ -1,13 +1,13 @@
 import P from 'prop-types';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState, useRef } from 'react';
 import './App.css';
 
 // componente criado aqui
-const Post = ({ post }) => {
+const Post = ({ post, handleClick }) => {
   console.log('Filho, renderizou');
   return (
     <div key={post.id} className="post">
-      <h1>{post.title}</h1>
+      <h1 onClick={() => handleClick(post.title)}>{post.title}</h1>
       <p>{post.body}</p>
     </div>
   );
@@ -19,13 +19,16 @@ Post.protoType = {
     title: P.string,
     body: P.string,
   }),
+  handleClick: P.func,
 };
 // ...
 
 /*------- Component -------*/
 function App() {
   const [posts, setPosts] = useState([]);
-  const [valor, setValor] = useState('');
+  const [value, setValue] = useState('');
+  const input = useRef(null);
+  const contador = useRef(0);
 
   console.log('Pai, renderizou');
 
@@ -36,20 +39,37 @@ function App() {
       .then((r) => setPosts(r));
   }, []);
 
+  useEffect(() => {
+    input.current.focus();
+    console.log(input.current);
+  }, [value]);
+
+  useEffect(() => {
+    contador.current++;
+    console.log(contador.current);
+  });
+
+  // funcão
+  const handlerClick = (value) => {
+    setValue(value);
+  };
+
   return (
     <div className="App">
+      <h1>Renderizou: {contador.current}x</h1>
       <p>
         <input
+          ref={input}
           type="search"
-          value={valor}
-          onChange={(e) => setValor(e.target.value)}
+          value={value}
+          onChange={(e) => setValue(e.target.value)}
         />
       </p>
       {useMemo(() => {
         return (
           posts.length > 0 &&
           posts.map((post) => {
-            return <Post key={post.id} post={post} />;
+            return <Post key={post.id} post={post} handleClick={handlerClick} />;
           })
         );
       }, [posts])}
